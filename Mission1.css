@@ -1,0 +1,61 @@
+body { background-color: lightgrey;}
+
+fieldset
+{ 
+	border: none;
+}
+
+
+ { 
+
+input[type="radio" value="Messi"]:checked
+
+
+ }
+
+ { 
+
+input[type="radio" value="MANCITY"]:checked
+
+
+ }
+
+ { 
+
+input[type="radio" value="Argentine"]:checked
+
+
+ }
+
+ { 
+
+input[type="radio" value="MANCITY"]:checked
+
+
+ }
+
+ { 
+
+input[type="radio" value="BARCA"]:checked
+
+
+ }
+
+ { 
+
+input[type="radio" value="Inter"]:checked
+
+}
+
+
+ { 
+
+input[type="radio" value="Bayern"]:checked
+
+}
+
+ { 
+
+input[type="radio" value= "Giroud"]:checked
+
+}
