@@ -1,48 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Menu Responsive</title>
+	<link rel="stylesheet" href="menu-style.css">
 </head>
 
 <body>
-	<font color="red" face="verdana" size="10em">
-		<h1><u> sommaire<u></h1>
-	</font>
-	<ol>
-		<li>
-			<h2> <a href="identification.html">identification </a></h2>
-		</li>
-	</ol>
-	<ol>
-		<li>
-			<h2> <a href="Inscription.html">Inscritption </a></h2>
-		</li>
-	</ol>
-	<ol>
-		<li>
-			<h2> <a href="formulaire.html">Formulaire </a></h2>
-		</li>
-	</ol>
+	<nav>
+		<label for="menu-mobile" class="menu-mobile">Menu</label>
+		<input type="checkbox" name="menu-mobile" id="button">
+		<ul>
+			<li class="menu-html"><a href="#">HTML & CSS</a>
+				<ul class="submenu">
+					<li><a href="site1/identification.html">Identification</a> </li>
+					<li><a href="site1/Inscription.html">Inscription</a></li>
+					<li><a href="TP3/index.html">Iframe</a></li>
+					<li><a href="TP5/Tp5-ex1.html">Modèle de boite</a></li>
+					<li><a href="TP5/tp5-2.html">Profil</a></li>
+				</ul>
+			</li>
 
-	<ol>
-		<li>
-			<h2> <a href="index.html">index</a></h2>
-		</li>
-	</ol>
-	<ol>
-		<li>
-			<h2> <a href="mission1.html">mission1</a></h2>
-		</li>
-	</ol>
-	<ol>
-		<li>
-			<h2> <a href="mission2.html">mission2</a></h2>
-		</li>
-	</ol>
+			<li class="menu-css"><a href="#">JavaScript</a>
+				<ul class="submenu">
+					<li><a href="TP7/calculatrice.html">TP1</a> </li>
+					<li><a href="TP8/Facture.html">TP2</a></li>
+					<li><a href="TP9/tp9.html">TP3</a></li>
+				</ul>
+			</li>
+			<li class="menu-js"><a href="#"> Bases de données</a>
+				<ul class="submenu">
 
+				</ul>
+			</li>
+			<li class="menu-js"><a href="#"> PHP </a>
+				<ul class="submenu">
+
+				</ul>
+			</li>
+			<li class="menu-js"><a href="#"> Missions</a>
+				<ul class="submenu">
+					<li><a href="mission1.html">Mission 1</a> </li>
+					<li><a href="mission2.html">Mission 2 </a></li>
+
+				</ul>
+			</li>
+			<li class="menu-contact"><a href="Certifications/certification.html">Certifications</a></li>
+		</ul>
+	</nav>
 
 </body>
 

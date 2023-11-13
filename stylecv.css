@@ -8,14 +8,12 @@ body {
 
 
 
- 
- .container {
-    border: 5px solid green;
-    border-radius: 30px;
-} 
+
+
 
 .d1 {
   float: left;
+
 }
 
 .d2 {
@@ -36,14 +34,3 @@ img {
   clear: both;
 
 }
-
-
-
-
-
-
-
-
-
-
-
